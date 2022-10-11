@@ -1,0 +1,231 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    position: fixed;
+    left: 0;
+    right: 0;
+}
+
+.navbar {
+    height: 12vh;
+    font-size: x-large;
+}
+
+.navbar .container {
+    padding: 0 150px;
+}
+
+.nav-link {
+    color: #999da0;
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+#conf {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 93vh;
+}
+
+#conf::before {
+    content: " ";
+    background-image: url("/images/ba1.jpg");
+    filter: brightness(0.5);
+    width: 100%;
+    height: 93%;
+    background-position: 0% 50%;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: -1;
+}
+
+.conf-container {
+    width: 750px;
+    height: 200px;
+    color:white;
+    margin-right: 170px;
+    margin-top: 70px;
+    text-align: right;
+}
+
+.conf-container h1 {
+    font-size: 3rem;
+}
+
+.conf-container p {
+    font-size: 1.5rem;
+}
+
+.conf-container button {
+    padding: 0.75rem 1.25rem;
+    margin-top: 40px;
+    margin-left: 15px;
+    font-size: 1.5rem;
+}
+
+#people {
+    text-align: center;
+    height: 80vh;
+}
+
+#people p {
+    margin-top: 15px;
+}
+
+#people h2 {
+    font-size: 2.5rem;
+}
+
+.people-list {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+.people-list .item {
+    border: solid 1px #dfdfdf;
+    border-radius: 5px;
+    width: min-content;
+}
+
+.people-list .item .title {
+    font-size: 1.5rem;
+}
+
+.people-list .item img {
+    border-radius: 5px 5px 0 0;
+}
+
+.people-list .item aside {
+    text-align: left;
+    padding: 2rem;
+}
+
+.people-list .item button {
+    padding: 0 2px;
+    border: none;
+    font-weight: 700;
+}
+
+.btn-react {
+    background-color: #16a3b7;
+}
+
+#bsas {
+    display: flex;
+}
+
+#bsas img {
+    width: 50%;
+}
+
+#bsas aside {
+    background-color: #353a40;
+    color: white;
+    padding: 1.5rem;
+}
+
+#bsas aside p {
+    font-size: 1.15rem;
+}
+
+#bsas aside .btn {
+    margin-top: 20px;
+    font-size: 1rem;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 48%;
+    margin: 40px auto 20px auto;
+}
+
+form .head {
+    text-align: center;
+}
+
+form .head h2 {
+    font-size: 2.5rem;
+}
+
+form .head p {
+    font-size: 1.25rem;
+}
+
+form input {
+    width: 48%;
+    margin-top: 10px;
+    padding: 0.5rem;
+    border-radius: 4px;
+    border: 1px #cdd4da solid;
+}
+
+form input[name=nombre] {
+    margin-right: auto;
+}
+
+form textarea {
+    width: 100%;
+    margin-top: 20px;
+    border: 1px #cdd4da solid;
+    border-radius: 4px;
+    height: 140px;
+    padding: 1rem;
+    font-size: x-large;
+}
+
+form p {
+    width: 100%;
+}
+
+form button {
+    width: 100%;
+    padding: 12px 0;
+    background-color: #96c93e;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
+
+footer {
+    background-color: #1c3947;
+    color: white;
+    padding: 1.75rem;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-image: linear-gradient(to right, #1c3643, #1d5271);
+}
+
+footer .list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+}
+
+footer .list .item {
+    font-size: 1.25rem;
+    width: 10%;
+    text-align: center;
+}
